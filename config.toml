@@ -4,6 +4,7 @@ title = "Open osquery"
 theme = "kube"
 Paginate = 4
 pygmentsUseClasses = true
+publishDir = "docs"
 
 [Params]
   RSSLink = "/index.xml"
