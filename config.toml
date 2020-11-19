@@ -1,0 +1,24 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Open osquery"
+theme = "kube"
+Paginate = 4
+pygmentsUseClasses = true
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "open-osquery" # add your company name
+  github = "open-osquery" # add your github profile name
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "About"
+    weight = -100
+    url = "/about/"
