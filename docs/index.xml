@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Open osquery</title>
+    <link>/docs/</link>
+    <description>Recent content in Docs on Open osquery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Nov 2020 17:47:31 +0530</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello world in golang</title>
+      <link>/docs/talking-to-kauditd/</link>
+      <pubDate>Thu, 19 Nov 2020 17:47:31 +0530</pubDate>
+      
+      <guid>/docs/talking-to-kauditd/</guid>
+      <description>Introduction Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+How to write readable enums Not the most idiomatic way, but gets the job done !
+package main import ( &amp;#34;fmt&amp;#34; ) type Action struct { val uint32 repr string } func (a *Action) Val() uint32 { return a.val } func (a *Action) String() string { return a.repr } var ( Read = Action{0, &amp;#34;Read&amp;#34;} Write = Action{1, &amp;#34;Write&amp;#34;} Attr = Action{2, &amp;#34;Attr&amp;#34;} ) func main() { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>
