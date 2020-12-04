@@ -5,6 +5,17 @@
     <link>/blog/</link>
     <description>Recent content in The blog page on Open osquery</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 17:14:54 +0530</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parsing Linux audit config</title>
+      <link>/blog/parsing_audit_config/</link>
+      <pubDate>Sun, 22 Nov 2020 17:14:54 +0530</pubDate>
+      
+      <guid>/blog/parsing_audit_config/</guid>
+      <description>The linux audit framework The linux audit framework can be seen as a watcher on the events from the kernel, usually events related to security. It does not provide any kind of security on it&amp;rsquo;s own but just logs everything it&amp;rsquo;s asked to for analysis later.
+This article is not going to deal with details on the audit framework and configuration by itself. There are better resources, for example archlinux: Audit Framework that deal with the configuration with much more accuracy.</description>
+    </item>
+    
   </channel>
 </rss>
